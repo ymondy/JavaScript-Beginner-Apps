@@ -1,4 +1,4 @@
-//forecast is meseared in Kelvin. Kelvin = 293
+//forecast is measured in Kelvin. Kelvin = 293
 let kelvin = 0;
 //Celsius is 273 degrees less than Kelvin.
 let celsius = kelvin - 273;
