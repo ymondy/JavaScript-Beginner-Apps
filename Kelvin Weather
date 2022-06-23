@@ -1,0 +1,17 @@
+//forecast is meseared in Kelvin. Kelvin = 293
+let kelvin = 0;
+//Celsius is 273 degrees less than Kelvin.
+let celsius = kelvin - 273;
+//Convert Celsuis to newton scale.
+let newton = celsius * (33/100)
+//using y to represent newton.
+y = newton 
+//fahrenheit is calculated using the below equation that can change.
+let fahrenheit = celsius * (9/5) + 32;
+//using x to represent fahrenheit.
+x = fahrenheit;
+//Round down x and y values.
+x = Math.floor(x);
+y = Math.floor(y);
+console.log(`The temperature is ${x} degrees Fahrenheit.`);
+console.log(`The temperature is ${y} degrees in Newton.`);
